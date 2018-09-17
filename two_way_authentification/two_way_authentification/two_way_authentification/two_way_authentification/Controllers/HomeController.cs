@@ -34,7 +34,7 @@ namespace two_way_authentification.Controllers
                 var request = (HttpWebRequest) WebRequest.Create("https://rest.nexmo.com/sms/json");
                 var secret = "TEST_SECRET";
 
-                var postData = "api_key=182770bd";
+                var postData = "api_key=<api_key>";
                 postData += "&api_secret=<secret>";
                 postData += "&to=<phone_number>";
                 postData += "&from=\"NEXMO\"";
