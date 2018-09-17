@@ -27,11 +27,11 @@ namespace two_way_authentification.Controllers
         public ActionResult Login()
         {
             var username = Request["username"];
-            var password = Request["passowrd"];
+            var password = Request["password"];
 
             if (username == "test" && password == "test")
             {
-                var request = (HttpWebRequest) WebRequest.Create("https://test.nexmo.com/sms/json");
+                var request = (HttpWebRequest) WebRequest.Create("https://rest.nexmo.com/sms/json");
                 var secret = "TEST_SECRET";
 
                 var postData = "api_key=182770bd";
@@ -64,6 +64,20 @@ namespace two_way_authentification.Controllers
             return View();
         }
 
+        [HttpPost]
+        public void TokenLogin()
+        {
+            var token = Request["token"];
+
+            if (token == "TEST_SECRET")
+            {
+                Console.Write("1");
+            }
+            else
+            {
+                Console.Write("0");
+            }
+        }
 
         public ActionResult Contact()
         {
