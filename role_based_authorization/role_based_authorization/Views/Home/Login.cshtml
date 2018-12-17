@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+<div class="row" style="margin-top: 60px;">
+    <div class="col-lg-8 col-lg-offset-2">
+        <form c1ass="well" action="@Url.Action("Login")" method="post">
+
+            <label>Username</label>
+            <input type="text" name="username" value="" class="form-control" />
+            <br />
+
+            <label>Password</label>
+            <input type="password" name="password" value="" class="form-control" />
+
+            <br />
+
+            <input type="submit" name="" value="Log In" class="btn btn-primary" />
+
+            @Html.Raw(ViewBag.Message)
+        </form>
+
+    </div>
+</div>
