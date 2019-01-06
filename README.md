@@ -23,12 +23,13 @@ done
 ## Block 11
 done
 ## Block 12
-open
+done
 ## Block 13
 done
 ## Block 14
 done
 ## Block 15
-cesar: open
-vigenere: open
-onetimepad: open
+cesar: done
+vigenere: done
+onetimepad: done
+certificate: done

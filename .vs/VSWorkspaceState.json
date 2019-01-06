@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\encryption_cesar",
     "\\encryption_onetimepad",
-    "\\encryption_vigenere"
+    "\\encryption_vigenere",
+    "\\self_signed_certificate"
   ],
-  "SelectedNode": "\\encryption_onetimepad\\index.html",
+  "SelectedNode": "\\self_signed_certificate",
   "PreviewInSolutionExplorer": false
 }
