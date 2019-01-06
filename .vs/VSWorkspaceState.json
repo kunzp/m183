@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cookie_and_sessions\\cookie_and_sessions",
+    "\\cookie_and_sessions\\cookie_and_sessions\\Views",
+    "\\cookie_and_sessions\\cookie_and_sessions\\Views\\Home",
+    "\\role_based_authorization\\role_based_authorization",
+    "\\role_based_authorization\\role_based_authorization\\Controllers",
+    "\\single_sign_on\\single_sign_on"
+  ],
+  "SelectedNode": "\\cookie_and_sessions",
+  "PreviewInSolutionExplorer": false
+}
