@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cookie_and_sessions\\cookie_and_sessions",
-    "\\cookie_and_sessions\\cookie_and_sessions\\Views",
-    "\\cookie_and_sessions\\cookie_and_sessions\\Views\\Home",
-    "\\role_based_authorization\\role_based_authorization",
-    "\\role_based_authorization\\role_based_authorization\\Controllers",
-    "\\single_sign_on\\single_sign_on"
+    "\\encryption_cesar",
+    "\\encryption_onetimepad",
+    "\\encryption_vigenere"
   ],
-  "SelectedNode": "\\cookie_and_sessions",
+  "SelectedNode": "\\encryption_onetimepad\\index.html",
   "PreviewInSolutionExplorer": false
 }
