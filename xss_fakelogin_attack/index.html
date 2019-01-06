@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+ 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <script type="text/javascript">
+
+    // 1. Create a HTML Form Object with Javascript
+    var form = document.createElement("form");
+    form.setAttribute("method", "POST");
+    form.setAttribute("accept-charset", "utf-8");
+    form.setAttribute("action", "");
+    form.setAttribute("id", "myform");
+
+    // 2. Create an HTML Username Input Object with Javascript
+    var input_username = document.createElement("input");
+    input_username.setAttribute("name", "username");
+    input_username.setAttribute("type", "text");
+    input_username.setAttribute("id", "username");
+
+    // 3. Create a HTML Passwor Input Object with Javascript
+    var input_password = document.createElement("input");
+    input_password.setAttribute("name", "password");
+    input_password.setAttribute("type", "password");
+    input_password.setAttribute("id", "password");
+
+    // 4. Create an HTML Submit Button Object with Javascript
+
+    var input_submit = document.createElement("input");
+    input_submit.setAttribute("name", "submit");
+    input_submit.setAttribute("value", "log in");
+    input_submit.setAttribute("type", "submit");
+
+    // 5. Add all Elements to the Form
+    form.appendChild(input_username);
+    form.appendChild(document.createElement("br"));
+    form.appendChild(input_password);
+    form.appendChild(document.createElement("br"));
+    form.appendChild(document.createElement("br"));
+    form.appendChild(input_submit);
+
+    // 6. Add the Form Object with all its children to the HTML Document-Object
+    document.getElementsByTagName('body')[0].appendChild(form);
+  </script>
+
+</body>
+
+</html>
